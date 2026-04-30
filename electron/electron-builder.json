@@ -1,0 +1,42 @@
+{
+  "appId": "com.infogeral.dashboard",
+  "productName": "INFOGERAL Dashboard",
+  "directories": {
+    "buildResources": "electron/assets"
+  },
+  "files": [
+    "dist",
+    "electron/main.js",
+    "electron/preload.js",
+    "electron/assets/icon.ico"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      },
+      {
+        "target": "portable",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "icon": "electron/assets/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "INFOGERAL Dashboard",
+    "installerIcon": "electron/assets/icon.ico",
+    "uninstallerIcon": "electron/assets/icon.ico"
+  },
+  "portable": {
+    "artifactName": "${productName}-${version}.${ext}"
+  }
+}

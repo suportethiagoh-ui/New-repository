@@ -1,0 +1,3923 @@
+{
+  "arquivo": "/home/ubuntu/upload/INFOGERAL.xlsx",
+  "abas": [
+    {
+      "aba": "Busca rapida",
+      "linhas_excel": 49,
+      "colunas_excel": 24,
+      "linha_cabecalho_detectada": 2,
+      "campos": [
+        "Busca Por Nome:",
+        "COLUNA_2",
+        "COLUNA_3",
+        "COLUNA_4",
+        "COLUNA_5",
+        "COLUNA_6",
+        "COLUNA_7",
+        "COLUNA_8",
+        "Busca Por Cod",
+        "COLUNA_10",
+        "COLUNA_11",
+        "COLUNA_12",
+        "COLUNA_13",
+        "COLUNA_14",
+        "COLUNA_15",
+        "Busca Por Carimbo",
+        "COLUNA_17",
+        "COLUNA_18",
+        "COLUNA_19",
+        "COLUNA_20",
+        "COLUNA_21",
+        "COLUNA_22",
+        "COLUNA_23",
+        "COLUNA_24"
+      ],
+      "total_registros_detectados": 17,
+      "celulas_mescladas": [
+        "C14:S17",
+        "R23:X25",
+        "B23:H25",
+        "B39:H41",
+        "P2:U4",
+        "I2:N4",
+        "A2:G4",
+        "J23:P25"
+      ],
+      "quantidade_formulas": 25,
+      "amostras_formulas": [
+        "=IFERROR(_xlfn.XLOOKUP($C$6,'Geral Cod'!$C$2:$C$101,'Geral Cod'!$E$2:$E$101),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($K$6,'Geral Cod'!$A$2:$A$101,'Geral Cod'!$E$2:$E$101),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($R$6,'Geral Cod'!$B$2:$B$101,'Geral Cod'!$E$2:$E$101),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($C$6,'Geral Cod'!$C$2:$C$101,'Geral Cod'!$B$2:$B$101),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($K$6,'Geral Cod'!$A$2:$A$101,'Geral Cod'!$C$2:$C$101),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($R$6,'Geral Cod'!$B$2:$B$101,'Geral Cod'!$C$2:$C$101),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($C$6,'Geral Cod'!$C$2:$C$101,'Geral Cod'!$A$2:$A$101),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($K$6,'Geral Cod'!$A$2:$A$101,'Geral Cod'!$B$2:$B$101),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($R$6,'Geral Cod'!$B$2:$B$101,'Geral Cod'!$A$2:$A$101),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($D$27,'Inspção P. Pequenas'!$D$3:$D$16,'Inspção P. Pequenas'!$C$3:$C$16),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($L$27,Esmaltação!$D$3:$D$15,Esmaltação!$C$3:$C$15),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($T$27,Fundição!$D$3:$D$51,Fundição!$C$3:$C$51),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($D$27,'Inspção P. Pequenas'!$D$3:$D$16,'Inspção P. Pequenas'!$B$3:$B$16),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($L$27,Esmaltação!$D$3:$D$15,Esmaltação!$B$3:$B$15),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($T$27,Fundição!$D$3:$D$51,Fundição!$B$3:$B$51),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($D$27,'Inspção P. Pequenas'!$D$3:$D$16,'Inspção P. Pequenas'!$A$3:$A$16),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($L$27,Esmaltação!$D$3:$D$15,Esmaltação!$A$3:$A$15),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($T$27,Fundição!$D$3:$D$51,Fundição!$A$3:$A$51),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($D$27,'Inspção P. Pequenas'!$D$3:$D$16,'Inspção P. Pequenas'!$E$3:$E$16),\"\")",
+        "=IFERROR(_xlfn.XLOOKUP($L$27,Esmaltação!$D$3:$D$15,Esmaltação!$E$3:$E$15),\"\")"
+      ],
+      "perfil_campos": [
+        {
+          "campo": "Busca Por Nome:",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_2",
+          "preenchidos": 6,
+          "vazios": 11,
+          "unicos": 6,
+          "tipos": {
+            "str": 6
+          },
+          "amostras": [
+            "Nome:",
+            "Setor:",
+            "Carimbo:",
+            "Código",
+            "Busca Por Nome Inspeção P.P. :",
+            "Busca Por Nome Classificação:"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Nome:",
+              1
+            ],
+            [
+              "Setor:",
+              1
+            ],
+            [
+              "Carimbo:",
+              1
+            ],
+            [
+              "Código",
+              1
+            ],
+            [
+              "Busca Por Nome Inspeção P.P. :",
+              1
+            ],
+            [
+              "Busca Por Nome Classificação:",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_3",
+          "preenchidos": 11,
+          "vazios": 6,
+          "unicos": 6,
+          "tipos": {
+            "str": 11
+          },
+          "amostras": [
+            "Pesquisas de setores individuais.",
+            "Apelido:",
+            "Carimbo:",
+            "Codigo de Cadastro:",
+            "Cod de funcionario:",
+            "Nome Completo:"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Apelido:",
+              2
+            ],
+            [
+              "Carimbo:",
+              2
+            ],
+            [
+              "Codigo de Cadastro:",
+              2
+            ],
+            [
+              "Cod de funcionario:",
+              2
+            ],
+            [
+              "Nome Completo:",
+              2
+            ],
+            [
+              "Pesquisas de setores individuais.",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_4",
+          "preenchidos": 10,
+          "vazios": 7,
+          "unicos": 10,
+          "tipos": {
+            "str": 4,
+            "int": 6
+          },
+          "amostras": [
+            "MARIA DE FATIMA",
+            88,
+            712,
+            11,
+            "MARIA DE FATIMA GOMES DE SALES",
+            "Mariza",
+            1,
+            1460,
+            3,
+            "MARIZA MARIA MARTINS DE ARAUJO"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "MARIA DE FATIMA",
+              1
+            ],
+            [
+              "88",
+              1
+            ],
+            [
+              "712",
+              1
+            ],
+            [
+              "11",
+              1
+            ],
+            [
+              "MARIA DE FATIMA GOMES DE SALES",
+              1
+            ],
+            [
+              "Mariza",
+              1
+            ],
+            [
+              "1",
+              1
+            ],
+            [
+              "1460",
+              1
+            ],
+            [
+              "3",
+              1
+            ],
+            [
+              "MARIZA MARIA MARTINS DE ARAUJO",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_5",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_6",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_7",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_8",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "Busca Por Cod",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_10",
+          "preenchidos": 5,
+          "vazios": 12,
+          "unicos": 5,
+          "tipos": {
+            "str": 5
+          },
+          "amostras": [
+            "Código:",
+            "Setor:",
+            "Nome:",
+            "Carimbo:",
+            "Busca Por Nome Esmaltação:"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Código:",
+              1
+            ],
+            [
+              "Setor:",
+              1
+            ],
+            [
+              "Nome:",
+              1
+            ],
+            [
+              "Carimbo:",
+              1
+            ],
+            [
+              "Busca Por Nome Esmaltação:",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_11",
+          "preenchidos": 5,
+          "vazios": 12,
+          "unicos": 5,
+          "tipos": {
+            "str": 5
+          },
+          "amostras": [
+            "Apelido:",
+            "Carimbo:",
+            "Codigo de Cadastro:",
+            "Cod de funcionario:",
+            "Nome Completo:"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Apelido:",
+              1
+            ],
+            [
+              "Carimbo:",
+              1
+            ],
+            [
+              "Codigo de Cadastro:",
+              1
+            ],
+            [
+              "Cod de funcionario:",
+              1
+            ],
+            [
+              "Nome Completo:",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_12",
+          "preenchidos": 5,
+          "vazios": 12,
+          "unicos": 5,
+          "tipos": {
+            "str": 2,
+            "int": 3
+          },
+          "amostras": [
+            "Weslei",
+            4,
+            2353,
+            3,
+            "WESLEI FRANCISCO DOS SANTOS"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Weslei",
+              1
+            ],
+            [
+              "4",
+              1
+            ],
+            [
+              "2353",
+              1
+            ],
+            [
+              "3",
+              1
+            ],
+            [
+              "WESLEI FRANCISCO DOS SANTOS",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_13",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_14",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_15",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "Busca Por Carimbo",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_17",
+          "preenchidos": 4,
+          "vazios": 13,
+          "unicos": 4,
+          "tipos": {
+            "str": 4
+          },
+          "amostras": [
+            "Carimbo:",
+            "Setor:",
+            "Nome:",
+            "Código:"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Carimbo:",
+              1
+            ],
+            [
+              "Setor:",
+              1
+            ],
+            [
+              "Nome:",
+              1
+            ],
+            [
+              "Código:",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_18",
+          "preenchidos": 1,
+          "vazios": 16,
+          "unicos": 1,
+          "tipos": {
+            "str": 1
+          },
+          "amostras": [
+            "Busca Por Nome Fundção:"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Busca Por Nome Fundção:",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_19",
+          "preenchidos": 5,
+          "vazios": 12,
+          "unicos": 5,
+          "tipos": {
+            "str": 5
+          },
+          "amostras": [
+            "Apelido:",
+            "Carimbo:",
+            "Codigo de Cadastro:",
+            "Cod de funcionario:",
+            "Nome Completo:"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Apelido:",
+              1
+            ],
+            [
+              "Carimbo:",
+              1
+            ],
+            [
+              "Codigo de Cadastro:",
+              1
+            ],
+            [
+              "Cod de funcionario:",
+              1
+            ],
+            [
+              "Nome Completo:",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_20",
+          "preenchidos": 5,
+          "vazios": 12,
+          "unicos": 5,
+          "tipos": {
+            "str": 2,
+            "int": 3
+          },
+          "amostras": [
+            "Valdeir",
+            1,
+            2148,
+            3,
+            "VALDEIR RODRIGUES DE MACEDO"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Valdeir",
+              1
+            ],
+            [
+              "1",
+              1
+            ],
+            [
+              "2148",
+              1
+            ],
+            [
+              "3",
+              1
+            ],
+            [
+              "VALDEIR RODRIGUES DE MACEDO",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_21",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_22",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_23",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_24",
+          "preenchidos": 0,
+          "vazios": 17,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        }
+      ],
+      "primeiros_registros": [
+        {
+          "Busca Por Nome:": null,
+          "COLUNA_2": "Nome:",
+          "COLUNA_3": null,
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "Busca Por Cod": null,
+          "COLUNA_10": "Código:",
+          "COLUNA_11": null,
+          "COLUNA_12": null,
+          "COLUNA_13": null,
+          "COLUNA_14": null,
+          "COLUNA_15": null,
+          "Busca Por Carimbo": null,
+          "COLUNA_17": "Carimbo:",
+          "COLUNA_18": null,
+          "COLUNA_19": null,
+          "COLUNA_20": null,
+          "COLUNA_21": null,
+          "COLUNA_22": null,
+          "COLUNA_23": null,
+          "COLUNA_24": null
+        },
+        {
+          "Busca Por Nome:": null,
+          "COLUNA_2": "Setor:",
+          "COLUNA_3": null,
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "Busca Por Cod": null,
+          "COLUNA_10": "Setor:",
+          "COLUNA_11": null,
+          "COLUNA_12": null,
+          "COLUNA_13": null,
+          "COLUNA_14": null,
+          "COLUNA_15": null,
+          "Busca Por Carimbo": null,
+          "COLUNA_17": "Setor:",
+          "COLUNA_18": null,
+          "COLUNA_19": null,
+          "COLUNA_20": null,
+          "COLUNA_21": null,
+          "COLUNA_22": null,
+          "COLUNA_23": null,
+          "COLUNA_24": null
+        },
+        {
+          "Busca Por Nome:": null,
+          "COLUNA_2": "Carimbo:",
+          "COLUNA_3": null,
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "Busca Por Cod": null,
+          "COLUNA_10": "Nome:",
+          "COLUNA_11": null,
+          "COLUNA_12": null,
+          "COLUNA_13": null,
+          "COLUNA_14": null,
+          "COLUNA_15": null,
+          "Busca Por Carimbo": null,
+          "COLUNA_17": "Nome:",
+          "COLUNA_18": null,
+          "COLUNA_19": null,
+          "COLUNA_20": null,
+          "COLUNA_21": null,
+          "COLUNA_22": null,
+          "COLUNA_23": null,
+          "COLUNA_24": null
+        },
+        {
+          "Busca Por Nome:": null,
+          "COLUNA_2": "Código",
+          "COLUNA_3": null,
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "Busca Por Cod": null,
+          "COLUNA_10": "Carimbo:",
+          "COLUNA_11": null,
+          "COLUNA_12": null,
+          "COLUNA_13": null,
+          "COLUNA_14": null,
+          "COLUNA_15": null,
+          "Busca Por Carimbo": null,
+          "COLUNA_17": "Código:",
+          "COLUNA_18": null,
+          "COLUNA_19": null,
+          "COLUNA_20": null,
+          "COLUNA_21": null,
+          "COLUNA_22": null,
+          "COLUNA_23": null,
+          "COLUNA_24": null
+        },
+        {
+          "Busca Por Nome:": null,
+          "COLUNA_2": null,
+          "COLUNA_3": "Pesquisas de setores individuais.",
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "Busca Por Cod": null,
+          "COLUNA_10": null,
+          "COLUNA_11": null,
+          "COLUNA_12": null,
+          "COLUNA_13": null,
+          "COLUNA_14": null,
+          "COLUNA_15": null,
+          "Busca Por Carimbo": null,
+          "COLUNA_17": null,
+          "COLUNA_18": null,
+          "COLUNA_19": null,
+          "COLUNA_20": null,
+          "COLUNA_21": null,
+          "COLUNA_22": null,
+          "COLUNA_23": null,
+          "COLUNA_24": null
+        }
+      ]
+    },
+    {
+      "aba": "PEÇAS",
+      "linhas_excel": 34,
+      "colunas_excel": 11,
+      "linha_cabecalho_detectada": 2,
+      "campos": [
+        "Bacia Convencional - Diva",
+        "111",
+        "COLUNA_3",
+        "COLUNA_4",
+        "COLUNA_5",
+        "COLUNA_6",
+        "COLUNA_7",
+        "COLUNA_8",
+        "COLUNA_9",
+        "COLUNA_10",
+        "COLUNA_11"
+      ],
+      "total_registros_detectados": 29,
+      "celulas_mescladas": [
+        "A1:B1"
+      ],
+      "quantidade_formulas": 0,
+      "amostras_formulas": [],
+      "perfil_campos": [
+        {
+          "campo": "Bacia Convencional - Diva",
+          "preenchidos": 29,
+          "vazios": 0,
+          "unicos": 29,
+          "tipos": {
+            "str": 29
+          },
+          "amostras": [
+            "Bacia P/ Acoplar - Diva",
+            "Bacia Convencional - Íris",
+            "Bacia P/ Acoplar - Íris",
+            "Bacia P/ Acoplar Acessibilidade",
+            "Bacia Convencional Acessibilidade",
+            "Cuba Oval de embutir (505x385)",
+            "Lavatório médio - Diva",
+            "Cuba Oval de embutir (300x390)",
+            "Modelo Cuba de Apoio Íris - Sem Mesa",
+            " Cuba de Apoio Íris - Com Mesa",
+            "Cuba de Apoio Athena - Sem Mesa (345)",
+            "Cuba de Apoio Athena - Com Mesa (395)",
+            "Cuba de Apoio Aurora (250)",
+            "Cuba de Apoio Zaria",
+            "Cuba de Apoio Dhara Oval",
+            "Cuba Dhara Redonda - (350)",
+            "Cuba Redonda de Embutir (300mm)",
+            "Modelo Cuba de Cabelereiro com Friso",
+            "Cuba Redonda de Embutir Fundida (370mm)",
+            "Coluna p/ Lavatório - Diva",
+            "Coluna p/ Lavatório Suspensa",
+            "Coluna p/ Tanque Onix",
+            "Caixa p/ Acoplar - DIVA",
+            "Caixa p/ Acoplar - IRIS",
+            "Mictorio Onix"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Bacia P/ Acoplar - Diva",
+              1
+            ],
+            [
+              "Bacia Convencional - Íris",
+              1
+            ],
+            [
+              "Bacia P/ Acoplar - Íris",
+              1
+            ],
+            [
+              "Bacia P/ Acoplar Acessibilidade",
+              1
+            ],
+            [
+              "Bacia Convencional Acessibilidade",
+              1
+            ],
+            [
+              "Cuba Oval de embutir (505x385)",
+              1
+            ],
+            [
+              "Lavatório médio - Diva",
+              1
+            ],
+            [
+              "Cuba Oval de embutir (300x390)",
+              1
+            ],
+            [
+              "Modelo Cuba de Apoio Íris - Sem Mesa",
+              1
+            ],
+            [
+              "Cuba de Apoio Íris - Com Mesa",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "111",
+          "preenchidos": 29,
+          "vazios": 0,
+          "unicos": 28,
+          "tipos": {
+            "str": 27,
+            "int": 2
+          },
+          "amostras": [
+            "112",
+            "116",
+            "117",
+            "120",
+            "121",
+            "210",
+            "211",
+            "213",
+            "217",
+            "227",
+            "247",
+            "237",
+            "250",
+            "270",
+            "260",
+            "230",
+            "214",
+            "222",
+            "212",
+            "311",
+            "312",
+            "305",
+            "412",
+            427,
+            "601"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "517",
+              2
+            ],
+            [
+              "112",
+              1
+            ],
+            [
+              "116",
+              1
+            ],
+            [
+              "117",
+              1
+            ],
+            [
+              "120",
+              1
+            ],
+            [
+              "121",
+              1
+            ],
+            [
+              "210",
+              1
+            ],
+            [
+              "211",
+              1
+            ],
+            [
+              "213",
+              1
+            ],
+            [
+              "217",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_3",
+          "preenchidos": 0,
+          "vazios": 29,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_4",
+          "preenchidos": 0,
+          "vazios": 29,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_5",
+          "preenchidos": 0,
+          "vazios": 29,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_6",
+          "preenchidos": 0,
+          "vazios": 29,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_7",
+          "preenchidos": 0,
+          "vazios": 29,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_8",
+          "preenchidos": 0,
+          "vazios": 29,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_9",
+          "preenchidos": 0,
+          "vazios": 29,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_10",
+          "preenchidos": 0,
+          "vazios": 29,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_11",
+          "preenchidos": 0,
+          "vazios": 29,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        }
+      ],
+      "primeiros_registros": [
+        {
+          "Bacia Convencional - Diva": "Bacia P/ Acoplar - Diva",
+          "111": "112",
+          "COLUNA_3": null,
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "COLUNA_9": null,
+          "COLUNA_10": null,
+          "COLUNA_11": null
+        },
+        {
+          "Bacia Convencional - Diva": "Bacia Convencional - Íris",
+          "111": "116",
+          "COLUNA_3": null,
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "COLUNA_9": null,
+          "COLUNA_10": null,
+          "COLUNA_11": null
+        },
+        {
+          "Bacia Convencional - Diva": "Bacia P/ Acoplar - Íris",
+          "111": "117",
+          "COLUNA_3": null,
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "COLUNA_9": null,
+          "COLUNA_10": null,
+          "COLUNA_11": null
+        },
+        {
+          "Bacia Convencional - Diva": "Bacia P/ Acoplar Acessibilidade",
+          "111": "120",
+          "COLUNA_3": null,
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "COLUNA_9": null,
+          "COLUNA_10": null,
+          "COLUNA_11": null
+        },
+        {
+          "Bacia Convencional - Diva": "Bacia Convencional Acessibilidade",
+          "111": "121",
+          "COLUNA_3": null,
+          "COLUNA_4": null,
+          "COLUNA_5": null,
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "COLUNA_9": null,
+          "COLUNA_10": null,
+          "COLUNA_11": null
+        }
+      ]
+    },
+    {
+      "aba": "COD",
+      "linhas_excel": 66,
+      "colunas_excel": 18,
+      "linha_cabecalho_detectada": 16,
+      "campos": [
+        "11",
+        "778",
+        "109 (17)",
+        "WALTER S(FUND.17)",
+        "WALTER SOARES DE SOUSA",
+        "COLUNA_6",
+        "COLUNA_7",
+        "COLUNA_8",
+        "COLUNA_9",
+        "11_2",
+        "859",
+        "90",
+        "Valquiria (90)",
+        "VALQUIRIA ROCHA BARBOSA DA CRUZ",
+        "COLUNA_15",
+        "COLUNA_16",
+        "COLUNA_17",
+        "COLUNA_18"
+      ],
+      "total_registros_detectados": 50,
+      "celulas_mescladas": [
+        "H25:I25",
+        "J3:N3",
+        "N57:R57",
+        "G42:K42",
+        "A1:E1",
+        "L30:P30"
+      ],
+      "quantidade_formulas": 0,
+      "amostras_formulas": [],
+      "perfil_campos": [
+        {
+          "campo": "11",
+          "preenchidos": 34,
+          "vazios": 16,
+          "unicos": 2,
+          "tipos": {
+            "int": 34
+          },
+          "amostras": [
+            3,
+            11
+          ],
+          "valores_mais_frequentes": [
+            [
+              "3",
+              20
+            ],
+            [
+              "11",
+              14
+            ]
+          ]
+        },
+        {
+          "campo": "778",
+          "preenchidos": 34,
+          "vazios": 16,
+          "unicos": 34,
+          "tipos": {
+            "int": 34
+          },
+          "amostras": [
+            2368,
+            804,
+            344,
+            2444,
+            2439,
+            826,
+            2485,
+            2483,
+            345,
+            2285,
+            2513,
+            1446,
+            1033,
+            2111,
+            2561,
+            2503,
+            2566,
+            2573,
+            2578,
+            2580,
+            2583,
+            2585,
+            2590,
+            46,
+            246
+          ],
+          "valores_mais_frequentes": [
+            [
+              "2368",
+              1
+            ],
+            [
+              "804",
+              1
+            ],
+            [
+              "344",
+              1
+            ],
+            [
+              "2444",
+              1
+            ],
+            [
+              "2439",
+              1
+            ],
+            [
+              "826",
+              1
+            ],
+            [
+              "2485",
+              1
+            ],
+            [
+              "2483",
+              1
+            ],
+            [
+              "345",
+              1
+            ],
+            [
+              "2285",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "109 (17)",
+          "preenchidos": 34,
+          "vazios": 16,
+          "unicos": 34,
+          "tipos": {
+            "int": 32,
+            "str": 2
+          },
+          "amostras": [
+            18,
+            "112 (20) ",
+            21,
+            22,
+            23,
+            "113 (24)",
+            26,
+            27,
+            28,
+            30,
+            31,
+            32,
+            34,
+            36,
+            37,
+            38,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            48,
+            54,
+            60
+          ],
+          "valores_mais_frequentes": [
+            [
+              "18",
+              1
+            ],
+            [
+              "112 (20)",
+              1
+            ],
+            [
+              "21",
+              1
+            ],
+            [
+              "22",
+              1
+            ],
+            [
+              "23",
+              1
+            ],
+            [
+              "113 (24)",
+              1
+            ],
+            [
+              "26",
+              1
+            ],
+            [
+              "27",
+              1
+            ],
+            [
+              "28",
+              1
+            ],
+            [
+              "30",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "WALTER S(FUND.17)",
+          "preenchidos": 34,
+          "vazios": 16,
+          "unicos": 34,
+          "tipos": {
+            "str": 34
+          },
+          "amostras": [
+            "MARCELO (FUND.)",
+            "Charles (FUND.20)",
+            "Marcos (fundidoer)",
+            "ANDRE SANTOS (FUND)",
+            "RICARDO (FUND)",
+            "LUCAS L (FUND.24)",
+            "MACIEL",
+            "CARLOS (FUNDIDOR)",
+            "JOAO B (FUNDIDOR)",
+            "FABRICIO (FD)",
+            "NYLTON (FUND)",
+            "TEREZA (FUNDIDOR)",
+            "NILTON (FUNDIDOR)",
+            "DALZIRIA (FUNDIDOR)",
+            "RAFAEL (FUND.)",
+            "HUMBERTO FUND.",
+            "ALEXSANDRO (FUND)",
+            "CORNELIO (FUNDIDOR)",
+            "WILLIAN (FUNDIDOR)",
+            "DEIVSON (FUNDIDOR)",
+            "MARIA (FUNDIDOR)",
+            "DIEGO (FUND.)",
+            "FABIANO (FUNDIDOR)",
+            "ADLET (FUND.)",
+            "Clebeson (FUNDIDOR)"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "MARCELO (FUND.)",
+              1
+            ],
+            [
+              "Charles (FUND.20)",
+              1
+            ],
+            [
+              "Marcos (fundidoer)",
+              1
+            ],
+            [
+              "ANDRE SANTOS (FUND)",
+              1
+            ],
+            [
+              "RICARDO (FUND)",
+              1
+            ],
+            [
+              "LUCAS L (FUND.24)",
+              1
+            ],
+            [
+              "MACIEL",
+              1
+            ],
+            [
+              "CARLOS (FUNDIDOR)",
+              1
+            ],
+            [
+              "JOAO B (FUNDIDOR)",
+              1
+            ],
+            [
+              "FABRICIO (FD)",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "WALTER SOARES DE SOUSA",
+          "preenchidos": 34,
+          "vazios": 16,
+          "unicos": 34,
+          "tipos": {
+            "str": 34
+          },
+          "amostras": [
+            "MARCELO DE OLIVEIRA DOS REIS",
+            "CHARLES LIMA FERREIRA",
+            "MARCO TULIO FIRMINO DA SILVA",
+            "ANDRE DOS SANTOS",
+            "RICARDO GOMES DE SOUSA",
+            "LUCAS DE OLIVEIRA LIMA ",
+            "MACIEL ROBERTO DOS SANTOS",
+            "CARLOS CORREIA DOS SANTOS",
+            "JOAO BATISTA CONCEIÇÃO OLIVEIRA",
+            "FABRICIO GALDEL SANTOS GOMES",
+            "NYLTON CESAR BERNARDO DA SILVA",
+            "TEREZA CRISTINA FERNANDES",
+            "NILTON CESAR ALVES BARBOSA",
+            "DALZIRIA DA SILVA LIMA",
+            "RAFAEL CARVALHO DA SILVA SARAIVA",
+            "HUMBERTO ALEXANDRE DOS SANTOS",
+            "ALEXSANDRO SANTOS DO NASCIMENTO",
+            "CORNELIO JOSE CARDOSO",
+            "WILLIAN ALVES CAMPOZANO",
+            "DEIVSON NASARENO SILVA",
+            "MARIA DO SOCORRO CRISPIN BARRETO DA SILV",
+            "DIEGO ALVES DE OLIVEIRA",
+            "FABIANO EUSTAQUIO DA LUZ",
+            "ADLET GUILLOME",
+            "CLEBSON OLIVEIRA NASCIMENTO"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "MARCELO DE OLIVEIRA DOS REIS",
+              1
+            ],
+            [
+              "CHARLES LIMA FERREIRA",
+              1
+            ],
+            [
+              "MARCO TULIO FIRMINO DA SILVA",
+              1
+            ],
+            [
+              "ANDRE DOS SANTOS",
+              1
+            ],
+            [
+              "RICARDO GOMES DE SOUSA",
+              1
+            ],
+            [
+              "LUCAS DE OLIVEIRA LIMA",
+              1
+            ],
+            [
+              "MACIEL ROBERTO DOS SANTOS",
+              1
+            ],
+            [
+              "CARLOS CORREIA DOS SANTOS",
+              1
+            ],
+            [
+              "JOAO BATISTA CONCEIÇÃO OLIVEIRA",
+              1
+            ],
+            [
+              "FABRICIO GALDEL SANTOS GOMES",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_6",
+          "preenchidos": 0,
+          "vazios": 50,
+          "unicos": 0,
+          "tipos": {},
+          "amostras": [],
+          "valores_mais_frequentes": []
+        },
+        {
+          "campo": "COLUNA_7",
+          "preenchidos": 25,
+          "vazios": 25,
+          "unicos": 3,
+          "tipos": {
+            "str": 1,
+            "int": 24
+          },
+          "amostras": [
+            "Nomes/cod",
+            3,
+            11
+          ],
+          "valores_mais_frequentes": [
+            [
+              "3",
+              17
+            ],
+            [
+              "11",
+              7
+            ],
+            [
+              "Nomes/cod",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_8",
+          "preenchidos": 30,
+          "vazios": 20,
+          "unicos": 30,
+          "tipos": {
+            "str": 6,
+            "int": 24
+          },
+          "amostras": [
+            " Cod. Líderes",
+            "Inspeção Baci",
+            "Inspeção Peç. Peq.",
+            "Fundção",
+            "Esmaltação",
+            "Expedição",
+            1460,
+            2327,
+            1746,
+            2344,
+            1342,
+            2397,
+            2434,
+            2526,
+            2532,
+            2541,
+            2547,
+            2557,
+            2558,
+            2142,
+            2496,
+            2560,
+            2620,
+            243,
+            513
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Cod. Líderes",
+              1
+            ],
+            [
+              "Inspeção Baci",
+              1
+            ],
+            [
+              "Inspeção Peç. Peq.",
+              1
+            ],
+            [
+              "Fundção",
+              1
+            ],
+            [
+              "Esmaltação",
+              1
+            ],
+            [
+              "Expedição",
+              1
+            ],
+            [
+              "1460",
+              1
+            ],
+            [
+              "2327",
+              1
+            ],
+            [
+              "1746",
+              1
+            ],
+            [
+              "2344",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_9",
+          "preenchidos": 29,
+          "vazios": 21,
+          "unicos": 28,
+          "tipos": {
+            "str": 5,
+            "int": 24
+          },
+          "amostras": [
+            "   (2584) GUILHERME (INSPETOR)",
+            "(54)  ANTONIA ( INSP)",
+            "(22) (2444) Andre Santos (FUND)",
+            "(14) (156) Railson Jose (Esmalta)",
+            "(10) (1342) Valdir  Pedro (Expe)",
+            1,
+            6,
+            7,
+            10,
+            11,
+            15,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            32,
+            34,
+            35,
+            40,
+            46,
+            53,
+            62,
+            75
+          ],
+          "valores_mais_frequentes": [
+            [
+              "7",
+              2
+            ],
+            [
+              "(2584) GUILHERME (INSPETOR)",
+              1
+            ],
+            [
+              "(54)  ANTONIA ( INSP)",
+              1
+            ],
+            [
+              "(22) (2444) Andre Santos (FUND)",
+              1
+            ],
+            [
+              "(14) (156) Railson Jose (Esmalta)",
+              1
+            ],
+            [
+              "(10) (1342) Valdir  Pedro (Expe)",
+              1
+            ],
+            [
+              "1",
+              1
+            ],
+            [
+              "6",
+              1
+            ],
+            [
+              "10",
+              1
+            ],
+            [
+              "11",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "11_2",
+          "preenchidos": 25,
+          "vazios": 25,
+          "unicos": 25,
+          "tipos": {
+            "int": 1,
+            "str": 24
+          },
+          "amostras": [
+            11,
+            "MARIZA (CQ)",
+            "KATHREIN (CQ)",
+            "CYNTHIA (CQ)",
+            "ELAINE CRISTINA",
+            "VALDIR (CQ)",
+            "Ana Cleia (CQ)",
+            "ISAQUE (C.Q)",
+            "JORGE (C.Q)",
+            "LUCAS (C.Q)",
+            "MARCELO (CQ)",
+            "ALEXANDRO (CQ)",
+            "Alessandra (CQ)",
+            "Maria Luzia (CQ)",
+            "VALDA (CQ)",
+            "MARIA ADRIANA (CQ)",
+            "ALCEANE DA CONCEICAO",
+            "MAGNO (CQ)",
+            "LINDOMAR (CLASS.)",
+            "KELLY (C.Q)",
+            "ALYNNI (C.Q) 62",
+            "MARCIA AUG (CQ) 75",
+            "CARLOS H(C.Q)(76)",
+            "Mikael - 802 (77)",
+            "Nilson(C.Q) 78"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "11",
+              1
+            ],
+            [
+              "MARIZA (CQ)",
+              1
+            ],
+            [
+              "KATHREIN (CQ)",
+              1
+            ],
+            [
+              "CYNTHIA (CQ)",
+              1
+            ],
+            [
+              "ELAINE CRISTINA",
+              1
+            ],
+            [
+              "VALDIR (CQ)",
+              1
+            ],
+            [
+              "Ana Cleia (CQ)",
+              1
+            ],
+            [
+              "ISAQUE (C.Q)",
+              1
+            ],
+            [
+              "JORGE (C.Q)",
+              1
+            ],
+            [
+              "LUCAS (C.Q)",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "859",
+          "preenchidos": 25,
+          "vazios": 25,
+          "unicos": 25,
+          "tipos": {
+            "int": 1,
+            "str": 24
+          },
+          "amostras": [
+            736,
+            "MARIZA MARIA MARTINS DE ARAUJO",
+            "KATHREIN MARTINS EVANGELISTA",
+            "CYNTHIA CRISTINA TOMAS MATIAS FERREIRA",
+            "ELAINE CRISTINA DE JESUS",
+            "VALDIR PEDRO DA SILVA",
+            "ANA CLEA RODRIGUES DE SOUSA",
+            "IZAQUE SILVA DOS SANTOS",
+            "JORGE ANTONIO RODRIGUES JUNIOR",
+            "LUCAS VIEIRA FELICIANO",
+            "MARCELO FRANCISCO LEAL",
+            "ALEXANDRO MAIA",
+            "ALESSANDRA MARIA COSTA MULLER",
+            "MARIA LUZIA DA COSTA",
+            "VALDA HELENA DA SILVA",
+            "MARIA ADRIANA DE SOUSA SANTOS",
+            "ALCEANE DA CONCEICAO",
+            "MAGNO ROSENO DE MELO SILVA",
+            "LINDOMAR PEREIRA DA SILVA",
+            "KELLY FABIANA LUIS",
+            "ALYNNI CRISTINA DE FREITAS LEMES",
+            "MARCIA AUGUSTA GONTIJO DA SILVA",
+            "CARLOS HENRIQUE SILVA PEREIRA",
+            "MIKAEL EVERSON SILVA DE OLIVEIRA",
+            "NILSON OLIVEIRA NEVES"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "736",
+              1
+            ],
+            [
+              "MARIZA MARIA MARTINS DE ARAUJO",
+              1
+            ],
+            [
+              "KATHREIN MARTINS EVANGELISTA",
+              1
+            ],
+            [
+              "CYNTHIA CRISTINA TOMAS MATIAS FERREIRA",
+              1
+            ],
+            [
+              "ELAINE CRISTINA DE JESUS",
+              1
+            ],
+            [
+              "VALDIR PEDRO DA SILVA",
+              1
+            ],
+            [
+              "ANA CLEA RODRIGUES DE SOUSA",
+              1
+            ],
+            [
+              "IZAQUE SILVA DOS SANTOS",
+              1
+            ],
+            [
+              "JORGE ANTONIO RODRIGUES JUNIOR",
+              1
+            ],
+            [
+              "LUCAS VIEIRA FELICIANO",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "90",
+          "preenchidos": 15,
+          "vazios": 35,
+          "unicos": 6,
+          "tipos": {
+            "int": 13,
+            "str": 2
+          },
+          "amostras": [
+            91,
+            "Nomes/Cod",
+            3,
+            11,
+            0,
+            "NOVATO"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "11",
+              7
+            ],
+            [
+              "3",
+              4
+            ],
+            [
+              "91",
+              1
+            ],
+            [
+              "Nomes/Cod",
+              1
+            ],
+            [
+              "0",
+              1
+            ],
+            [
+              "NOVATO",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "Valquiria (90)",
+          "preenchidos": 14,
+          "vazios": 36,
+          "unicos": 14,
+          "tipos": {
+            "str": 2,
+            "int": 12
+          },
+          "amostras": [
+            "Aprendiz 1 (INSP)91",
+            1992,
+            239,
+            400,
+            1599,
+            745,
+            2421,
+            750,
+            2366,
+            836,
+            690,
+            "NOVATO",
+            841,
+            2353
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Aprendiz 1 (INSP)91",
+              1
+            ],
+            [
+              "1992",
+              1
+            ],
+            [
+              "239",
+              1
+            ],
+            [
+              "400",
+              1
+            ],
+            [
+              "1599",
+              1
+            ],
+            [
+              "745",
+              1
+            ],
+            [
+              "2421",
+              1
+            ],
+            [
+              "750",
+              1
+            ],
+            [
+              "2366",
+              1
+            ],
+            [
+              "836",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "VALQUIRIA ROCHA BARBOSA DA CRUZ",
+          "preenchidos": 16,
+          "vazios": 34,
+          "unicos": 15,
+          "tipos": {
+            "str": 3,
+            "int": 13
+          },
+          "amostras": [
+            "Aprendiz 1 (INSP)",
+            2,
+            11,
+            21,
+            3,
+            26,
+            2421,
+            27,
+            6,
+            28,
+            25,
+            "NOVATO",
+            29,
+            4,
+            "Nome/Cod"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "3",
+              2
+            ],
+            [
+              "Aprendiz 1 (INSP)",
+              1
+            ],
+            [
+              "2",
+              1
+            ],
+            [
+              "11",
+              1
+            ],
+            [
+              "21",
+              1
+            ],
+            [
+              "26",
+              1
+            ],
+            [
+              "2421",
+              1
+            ],
+            [
+              "27",
+              1
+            ],
+            [
+              "6",
+              1
+            ],
+            [
+              "28",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_15",
+          "preenchidos": 14,
+          "vazios": 36,
+          "unicos": 14,
+          "tipos": {
+            "str": 13,
+            "int": 1
+          },
+          "amostras": [
+            "DORVACY (ESM)",
+            "ALEXANDRE B(ESM)",
+            "LEONADO B (FORNEIRO)",
+            "PAULO (ESM)",
+            "ARTHUR (ESM.) 26",
+            "IDGLAN (ESM.)",
+            "ALEXSANDER (ESM.) 27",
+            "RIVALDO (ESM)",
+            "VICTOR DO V.(ESM)28",
+            "GUSTAVO (ESM) 25",
+            "LUIS GUSTAVO",
+            "BRENNO ASSIS(ESM)29",
+            "Weslei (ESM)",
+            1528
+          ],
+          "valores_mais_frequentes": [
+            [
+              "DORVACY (ESM)",
+              1
+            ],
+            [
+              "ALEXANDRE B(ESM)",
+              1
+            ],
+            [
+              "LEONADO B (FORNEIRO)",
+              1
+            ],
+            [
+              "PAULO (ESM)",
+              1
+            ],
+            [
+              "ARTHUR (ESM.) 26",
+              1
+            ],
+            [
+              "IDGLAN (ESM.)",
+              1
+            ],
+            [
+              "ALEXSANDER (ESM.) 27",
+              1
+            ],
+            [
+              "RIVALDO (ESM)",
+              1
+            ],
+            [
+              "VICTOR DO V.(ESM)28",
+              1
+            ],
+            [
+              "GUSTAVO (ESM) 25",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_16",
+          "preenchidos": 14,
+          "vazios": 36,
+          "unicos": 14,
+          "tipos": {
+            "str": 13,
+            "int": 1
+          },
+          "amostras": [
+            "DORVACY FARIAS FERREIRA",
+            "ALEXANDRE BAPTISTA ROCHA",
+            "LEONARDO BITENCOURT SOARES",
+            "PAULO BRAGAS MACIEL",
+            "ARTHUR BATISTA DOS SANTOS",
+            "IDGLAN",
+            "ALEXSANDER CORREIA DA SILVA FERREIRA",
+            "RIVALDO DO CARMO CAMPOS SILVA",
+            "VICTOR DO VALLE DA CONCEIÇÃO",
+            "GUSTAVO VINICIUS DA SILVA SOUZA",
+            "LUIS GUSTAVO",
+            "BRENNO ASSIS BARBANTINI DA SILVA",
+            "WESLEI FRANCISCO DOS SANTOS",
+            9
+          ],
+          "valores_mais_frequentes": [
+            [
+              "DORVACY FARIAS FERREIRA",
+              1
+            ],
+            [
+              "ALEXANDRE BAPTISTA ROCHA",
+              1
+            ],
+            [
+              "LEONARDO BITENCOURT SOARES",
+              1
+            ],
+            [
+              "PAULO BRAGAS MACIEL",
+              1
+            ],
+            [
+              "ARTHUR BATISTA DOS SANTOS",
+              1
+            ],
+            [
+              "IDGLAN",
+              1
+            ],
+            [
+              "ALEXSANDER CORREIA DA SILVA FERREIRA",
+              1
+            ],
+            [
+              "RIVALDO DO CARMO CAMPOS SILVA",
+              1
+            ],
+            [
+              "VICTOR DO VALLE DA CONCEIÇÃO",
+              1
+            ],
+            [
+              "GUSTAVO VINICIUS DA SILVA SOUZA",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_17",
+          "preenchidos": 1,
+          "vazios": 49,
+          "unicos": 1,
+          "tipos": {
+            "str": 1
+          },
+          "amostras": [
+            "Edjalma (FORNEIRO)"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Edjalma (FORNEIRO)",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "COLUNA_18",
+          "preenchidos": 1,
+          "vazios": 49,
+          "unicos": 1,
+          "tipos": {
+            "str": 1
+          },
+          "amostras": [
+            "EDJALMA RODRIGUES OLIVEIRA"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "EDJALMA RODRIGUES OLIVEIRA",
+              1
+            ]
+          ]
+        }
+      ],
+      "primeiros_registros": [
+        {
+          "11": 3,
+          "778": 2368,
+          "109 (17)": 18,
+          "WALTER S(FUND.17)": "MARCELO (FUND.)",
+          "WALTER SOARES DE SOUSA": "MARCELO DE OLIVEIRA DOS REIS",
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "COLUNA_9": null,
+          "11_2": 11,
+          "859": 736,
+          "90": 91,
+          "Valquiria (90)": "Aprendiz 1 (INSP)91",
+          "VALQUIRIA ROCHA BARBOSA DA CRUZ": "Aprendiz 1 (INSP)",
+          "COLUNA_15": null,
+          "COLUNA_16": null,
+          "COLUNA_17": null,
+          "COLUNA_18": null
+        },
+        {
+          "11": 11,
+          "778": 804,
+          "109 (17)": "112 (20) ",
+          "WALTER S(FUND.17)": "Charles (FUND.20)",
+          "WALTER SOARES DE SOUSA": "CHARLES LIMA FERREIRA",
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "COLUNA_9": null,
+          "11_2": null,
+          "859": null,
+          "90": null,
+          "Valquiria (90)": null,
+          "VALQUIRIA ROCHA BARBOSA DA CRUZ": null,
+          "COLUNA_15": null,
+          "COLUNA_16": null,
+          "COLUNA_17": null,
+          "COLUNA_18": null
+        },
+        {
+          "11": 11,
+          "778": 344,
+          "109 (17)": 21,
+          "WALTER S(FUND.17)": "Marcos (fundidoer)",
+          "WALTER SOARES DE SOUSA": "MARCO TULIO FIRMINO DA SILVA",
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "COLUNA_9": null,
+          "11_2": null,
+          "859": null,
+          "90": null,
+          "Valquiria (90)": null,
+          "VALQUIRIA ROCHA BARBOSA DA CRUZ": null,
+          "COLUNA_15": null,
+          "COLUNA_16": null,
+          "COLUNA_17": null,
+          "COLUNA_18": null
+        },
+        {
+          "11": 3,
+          "778": 2444,
+          "109 (17)": 22,
+          "WALTER S(FUND.17)": "ANDRE SANTOS (FUND)",
+          "WALTER SOARES DE SOUSA": "ANDRE DOS SANTOS",
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": null,
+          "COLUNA_9": null,
+          "11_2": null,
+          "859": null,
+          "90": null,
+          "Valquiria (90)": null,
+          "VALQUIRIA ROCHA BARBOSA DA CRUZ": null,
+          "COLUNA_15": null,
+          "COLUNA_16": null,
+          "COLUNA_17": null,
+          "COLUNA_18": null
+        },
+        {
+          "11": 3,
+          "778": 2439,
+          "109 (17)": 23,
+          "WALTER S(FUND.17)": "RICARDO (FUND)",
+          "WALTER SOARES DE SOUSA": "RICARDO GOMES DE SOUSA",
+          "COLUNA_6": null,
+          "COLUNA_7": null,
+          "COLUNA_8": " ",
+          "COLUNA_9": null,
+          "11_2": null,
+          "859": null,
+          "90": null,
+          "Valquiria (90)": null,
+          "VALQUIRIA ROCHA BARBOSA DA CRUZ": null,
+          "COLUNA_15": null,
+          "COLUNA_16": null,
+          "COLUNA_17": null,
+          "COLUNA_18": null
+        }
+      ]
+    },
+    {
+      "aba": "Geral Cod",
+      "linhas_excel": 101,
+      "colunas_excel": 5,
+      "linha_cabecalho_detectada": 1,
+      "campos": [
+        "Código",
+        "Carimbo",
+        "Nome",
+        "Nome Completo",
+        "Setor"
+      ],
+      "total_registros_detectados": 100,
+      "celulas_mescladas": [],
+      "quantidade_formulas": 0,
+      "amostras_formulas": [],
+      "perfil_campos": [
+        {
+          "campo": "Código",
+          "preenchidos": 100,
+          "vazios": 0,
+          "unicos": 100,
+          "tipos": {
+            "int": 99,
+            "str": 1
+          },
+          "amostras": [
+            2148,
+            653,
+            1923,
+            1150,
+            1000,
+            2094,
+            2319,
+            2240,
+            2415,
+            2314,
+            2264,
+            2267,
+            813,
+            2381,
+            778,
+            2368,
+            804,
+            344,
+            2444,
+            2439,
+            826,
+            2485,
+            2483,
+            345,
+            2285
+          ],
+          "valores_mais_frequentes": [
+            [
+              "2148",
+              1
+            ],
+            [
+              "653",
+              1
+            ],
+            [
+              "1923",
+              1
+            ],
+            [
+              "1150",
+              1
+            ],
+            [
+              "1000",
+              1
+            ],
+            [
+              "2094",
+              1
+            ],
+            [
+              "2319",
+              1
+            ],
+            [
+              "2240",
+              1
+            ],
+            [
+              "2415",
+              1
+            ],
+            [
+              "2314",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "Carimbo",
+          "preenchidos": 100,
+          "vazios": 0,
+          "unicos": 74,
+          "tipos": {
+            "int": 95,
+            "str": 5
+          },
+          "amostras": [
+            1,
+            "101 (2) ",
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            "109 (17) ",
+            18,
+            "112 (20) ",
+            21,
+            22,
+            23,
+            "113 (24)",
+            26,
+            27,
+            28,
+            30
+          ],
+          "valores_mais_frequentes": [
+            [
+              "7",
+              3
+            ],
+            [
+              "11",
+              3
+            ],
+            [
+              "21",
+              3
+            ],
+            [
+              "1",
+              2
+            ],
+            [
+              "3",
+              2
+            ],
+            [
+              "4",
+              2
+            ],
+            [
+              "10",
+              2
+            ],
+            [
+              "15",
+              2
+            ],
+            [
+              "18",
+              2
+            ],
+            [
+              "22",
+              2
+            ]
+          ]
+        },
+        {
+          "campo": "Nome",
+          "preenchidos": 100,
+          "vazios": 0,
+          "unicos": 99,
+          "tipos": {
+            "str": 100
+          },
+          "amostras": [
+            "VALDEIR",
+            "Pedro Henri",
+            "ADILSON",
+            "ADEMILSOM",
+            "DURVAL",
+            "ANTONIA",
+            "MARCOS",
+            "ANTONIO NASCIMENTO",
+            "OTAVIO",
+            "CALEME",
+            "JOSE SEVERINO",
+            "MILTON",
+            "RODRIGO",
+            "JACIRON",
+            "WALTER S",
+            "MARCELO",
+            "Charles",
+            "Marcos",
+            "ANDRE SANTOS",
+            "RICARDO",
+            "LUCAS L",
+            "MACIEL",
+            "CARLOS",
+            "JOAO B",
+            "FABRICIO"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "MARCELO",
+              2
+            ],
+            [
+              "VALDEIR",
+              1
+            ],
+            [
+              "Pedro Henri",
+              1
+            ],
+            [
+              "ADILSON",
+              1
+            ],
+            [
+              "ADEMILSOM",
+              1
+            ],
+            [
+              "DURVAL",
+              1
+            ],
+            [
+              "ANTONIA",
+              1
+            ],
+            [
+              "MARCOS",
+              1
+            ],
+            [
+              "ANTONIO NASCIMENTO",
+              1
+            ],
+            [
+              "OTAVIO",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "Nome Completo",
+          "preenchidos": 100,
+          "vazios": 0,
+          "unicos": 100,
+          "tipos": {
+            "str": 100
+          },
+          "amostras": [
+            "VALDEIR RODRIGUES DE MACEDO",
+            "PEDRO HENRIQUE DA SILVA FLABILIO",
+            "ADILSON RAMOS",
+            "ADEMILSON ROSA DOS SANTOS",
+            "DURVAL FERREIRA DE CARVALHO",
+            "ANTONIA ERINALDA VIANA DE FRANCA",
+            "MARCOS JORGE DA SILVA",
+            "ANTONIO DO NASCIMENTO",
+            "OTAVIO MACHADO MANSO",
+            "CALEME OZALVO",
+            "JOSE SEVERINO DOS SANTOS",
+            "MILTON AUGUSTO DA SILVA",
+            "RODRIGO DE JESUS BRITO",
+            "JACIRON ALVES DOS SANTOS",
+            "WALTER SOARES DE SOUSA",
+            "MARCELO DE OLIVEIRA DOS REIS",
+            "CHARLES LIMA FERREIRA",
+            "MARCO TULIO FIRMINO DA SILVA",
+            "ANDRE DOS SANTOS",
+            "RICARDO GOMES DE SOUSA",
+            "LUCAS DE OLIVEIRA LIMA ",
+            "MACIEL ROBERTO DOS SANTOS",
+            "CARLOS CORREIA DOS SANTOS",
+            "JOAO BATISTA CONCEIÇÃO OLIVEIRA",
+            "FABRICIO GALDEL SANTOS GOMES"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "VALDEIR RODRIGUES DE MACEDO",
+              1
+            ],
+            [
+              "PEDRO HENRIQUE DA SILVA FLABILIO",
+              1
+            ],
+            [
+              "ADILSON RAMOS",
+              1
+            ],
+            [
+              "ADEMILSON ROSA DOS SANTOS",
+              1
+            ],
+            [
+              "DURVAL FERREIRA DE CARVALHO",
+              1
+            ],
+            [
+              "ANTONIA ERINALDA VIANA DE FRANCA",
+              1
+            ],
+            [
+              "MARCOS JORGE DA SILVA",
+              1
+            ],
+            [
+              "ANTONIO DO NASCIMENTO",
+              1
+            ],
+            [
+              "OTAVIO MACHADO MANSO",
+              1
+            ],
+            [
+              "CALEME OZALVO",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "Setor",
+          "preenchidos": 100,
+          "vazios": 0,
+          "unicos": 4,
+          "tipos": {
+            "str": 100
+          },
+          "amostras": [
+            "Fundição",
+            "Esmaltação",
+            "Classificação",
+            "Inspeção Peças Pequenas"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Fundição",
+              49
+            ],
+            [
+              "Classificação",
+              24
+            ],
+            [
+              "Inspeção Peças Pequenas",
+              14
+            ],
+            [
+              "Esmaltação",
+              13
+            ]
+          ]
+        }
+      ],
+      "primeiros_registros": [
+        {
+          "Código": 2148,
+          "Carimbo": 1,
+          "Nome": "VALDEIR",
+          "Nome Completo": "VALDEIR RODRIGUES DE MACEDO",
+          "Setor": "Fundição"
+        },
+        {
+          "Código": 653,
+          "Carimbo": "101 (2) ",
+          "Nome": "Pedro Henri",
+          "Nome Completo": "PEDRO HENRIQUE DA SILVA FLABILIO",
+          "Setor": "Fundição"
+        },
+        {
+          "Código": 1923,
+          "Carimbo": 3,
+          "Nome": "ADILSON",
+          "Nome Completo": "ADILSON RAMOS",
+          "Setor": "Fundição"
+        },
+        {
+          "Código": 1150,
+          "Carimbo": 4,
+          "Nome": "ADEMILSOM",
+          "Nome Completo": "ADEMILSON ROSA DOS SANTOS",
+          "Setor": "Fundição"
+        },
+        {
+          "Código": 1000,
+          "Carimbo": 5,
+          "Nome": "DURVAL",
+          "Nome Completo": "DURVAL FERREIRA DE CARVALHO",
+          "Setor": "Fundição"
+        }
+      ]
+    },
+    {
+      "aba": "Esmaltação",
+      "linhas_excel": 15,
+      "colunas_excel": 5,
+      "linha_cabecalho_detectada": 13,
+      "campos": [
+        "NOVATO",
+        "NOVATO_2",
+        "NOVATO_3",
+        "Luis Gustavo",
+        "LUIS GUSTAVO"
+      ],
+      "total_registros_detectados": 2,
+      "celulas_mescladas": [
+        "A2:E2"
+      ],
+      "quantidade_formulas": 0,
+      "amostras_formulas": [],
+      "perfil_campos": [
+        {
+          "campo": "NOVATO",
+          "preenchidos": 2,
+          "vazios": 0,
+          "unicos": 2,
+          "tipos": {
+            "int": 2
+          },
+          "amostras": [
+            11,
+            3
+          ],
+          "valores_mais_frequentes": [
+            [
+              "11",
+              1
+            ],
+            [
+              "3",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "NOVATO_2",
+          "preenchidos": 2,
+          "vazios": 0,
+          "unicos": 2,
+          "tipos": {
+            "int": 2
+          },
+          "amostras": [
+            841,
+            2353
+          ],
+          "valores_mais_frequentes": [
+            [
+              "841",
+              1
+            ],
+            [
+              "2353",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "NOVATO_3",
+          "preenchidos": 2,
+          "vazios": 0,
+          "unicos": 2,
+          "tipos": {
+            "int": 2
+          },
+          "amostras": [
+            29,
+            4
+          ],
+          "valores_mais_frequentes": [
+            [
+              "29",
+              1
+            ],
+            [
+              "4",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "Luis Gustavo",
+          "preenchidos": 2,
+          "vazios": 0,
+          "unicos": 2,
+          "tipos": {
+            "str": 2
+          },
+          "amostras": [
+            "Brenno",
+            "Weslei"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Brenno",
+              1
+            ],
+            [
+              "Weslei",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "LUIS GUSTAVO",
+          "preenchidos": 2,
+          "vazios": 0,
+          "unicos": 2,
+          "tipos": {
+            "str": 2
+          },
+          "amostras": [
+            "BRENNO ASSIS BARBANTINI DA SILVA",
+            "WESLEI FRANCISCO DOS SANTOS"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "BRENNO ASSIS BARBANTINI DA SILVA",
+              1
+            ],
+            [
+              "WESLEI FRANCISCO DOS SANTOS",
+              1
+            ]
+          ]
+        }
+      ],
+      "primeiros_registros": [
+        {
+          "NOVATO": 11,
+          "NOVATO_2": 841,
+          "NOVATO_3": 29,
+          "Luis Gustavo": "Brenno",
+          "LUIS GUSTAVO": "BRENNO ASSIS BARBANTINI DA SILVA"
+        },
+        {
+          "NOVATO": 3,
+          "NOVATO_2": 2353,
+          "NOVATO_3": 4,
+          "Luis Gustavo": "Weslei",
+          "LUIS GUSTAVO": "WESLEI FRANCISCO DOS SANTOS"
+        }
+      ]
+    },
+    {
+      "aba": "Inspção P. Pequenas",
+      "linhas_excel": 16,
+      "colunas_excel": 5,
+      "linha_cabecalho_detectada": 3,
+      "campos": [
+        "11",
+        "415",
+        "74",
+        "LUCIANA",
+        "LUCIANA INACIA DA SILVA"
+      ],
+      "total_registros_detectados": 13,
+      "celulas_mescladas": [
+        "A2:E2"
+      ],
+      "quantidade_formulas": 0,
+      "amostras_formulas": [],
+      "perfil_campos": [
+        {
+          "campo": "11",
+          "preenchidos": 13,
+          "vazios": 0,
+          "unicos": 3,
+          "tipos": {
+            "int": 13
+          },
+          "amostras": [
+            3,
+            0,
+            11
+          ],
+          "valores_mais_frequentes": [
+            [
+              "3",
+              6
+            ],
+            [
+              "11",
+              6
+            ],
+            [
+              "0",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "415",
+          "preenchidos": 13,
+          "vazios": 0,
+          "unicos": 13,
+          "tipos": {
+            "int": 13
+          },
+          "amostras": [
+            2209,
+            1860,
+            1821,
+            2489,
+            1598,
+            712,
+            1693,
+            408,
+            542,
+            2297,
+            603,
+            859,
+            736
+          ],
+          "valores_mais_frequentes": [
+            [
+              "2209",
+              1
+            ],
+            [
+              "1860",
+              1
+            ],
+            [
+              "1821",
+              1
+            ],
+            [
+              "2489",
+              1
+            ],
+            [
+              "1598",
+              1
+            ],
+            [
+              "712",
+              1
+            ],
+            [
+              "1693",
+              1
+            ],
+            [
+              "408",
+              1
+            ],
+            [
+              "542",
+              1
+            ],
+            [
+              "2297",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "74",
+          "preenchidos": 13,
+          "vazios": 0,
+          "unicos": 13,
+          "tipos": {
+            "int": 13
+          },
+          "amostras": [
+            53,
+            0,
+            57,
+            49,
+            55,
+            88,
+            61,
+            73,
+            78,
+            54,
+            85,
+            90,
+            91
+          ],
+          "valores_mais_frequentes": [
+            [
+              "53",
+              1
+            ],
+            [
+              "0",
+              1
+            ],
+            [
+              "57",
+              1
+            ],
+            [
+              "49",
+              1
+            ],
+            [
+              "55",
+              1
+            ],
+            [
+              "88",
+              1
+            ],
+            [
+              "61",
+              1
+            ],
+            [
+              "73",
+              1
+            ],
+            [
+              "78",
+              1
+            ],
+            [
+              "54",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "LUCIANA",
+          "preenchidos": 13,
+          "vazios": 0,
+          "unicos": 12,
+          "tipos": {
+            "str": 13
+          },
+          "amostras": [
+            "Adelia",
+            "Marilda Brito",
+            "Ivana",
+            "Maria Raimunda",
+            "MARIA DE FATIMA",
+            "Márcia",
+            "ERIKA",
+            "Camila",
+            "Maria N",
+            "Maria Silva",
+            "Valquiria",
+            "Aprendiz 1"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Marilda Brito",
+              2
+            ],
+            [
+              "Adelia",
+              1
+            ],
+            [
+              "Ivana",
+              1
+            ],
+            [
+              "Maria Raimunda",
+              1
+            ],
+            [
+              "MARIA DE FATIMA",
+              1
+            ],
+            [
+              "Márcia",
+              1
+            ],
+            [
+              "ERIKA",
+              1
+            ],
+            [
+              "Camila",
+              1
+            ],
+            [
+              "Maria N",
+              1
+            ],
+            [
+              "Maria Silva",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "LUCIANA INACIA DA SILVA",
+          "preenchidos": 13,
+          "vazios": 0,
+          "unicos": 13,
+          "tipos": {
+            "str": 13
+          },
+          "amostras": [
+            "ADELIA APARECIDA GOMES PEREIRA",
+            "Marilda Brito",
+            "IVANA DIRLENE DA SILVA",
+            "MARIA RAIMUNDA GONCALVES DA SILVA",
+            "MARILDA ANTONIA DOS REIS VALERIO",
+            "MARIA DE FATIMA GOMES DE SALES",
+            "MARCIA HELENA CANDIDO",
+            "ERIKA LOPES DOS SANTOS",
+            "CAMILA PEREIRA DE SOUSA",
+            "MARIA NILZA VIANA SANTOS",
+            "MARIA SILVA LIMA FERREIRA",
+            "VALQUIRIA ROCHA BARBOSA DA CRUZ",
+            "Aprendiz 1 (INSP)"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "ADELIA APARECIDA GOMES PEREIRA",
+              1
+            ],
+            [
+              "Marilda Brito",
+              1
+            ],
+            [
+              "IVANA DIRLENE DA SILVA",
+              1
+            ],
+            [
+              "MARIA RAIMUNDA GONCALVES DA SILVA",
+              1
+            ],
+            [
+              "MARILDA ANTONIA DOS REIS VALERIO",
+              1
+            ],
+            [
+              "MARIA DE FATIMA GOMES DE SALES",
+              1
+            ],
+            [
+              "MARCIA HELENA CANDIDO",
+              1
+            ],
+            [
+              "ERIKA LOPES DOS SANTOS",
+              1
+            ],
+            [
+              "CAMILA PEREIRA DE SOUSA",
+              1
+            ],
+            [
+              "MARIA NILZA VIANA SANTOS",
+              1
+            ]
+          ]
+        }
+      ],
+      "primeiros_registros": [
+        {
+          "11": 3,
+          "415": 2209,
+          "74": 53,
+          "LUCIANA": "Adelia",
+          "LUCIANA INACIA DA SILVA": "ADELIA APARECIDA GOMES PEREIRA"
+        },
+        {
+          "11": 0,
+          "415": 1860,
+          "74": 0,
+          "LUCIANA": "Marilda Brito",
+          "LUCIANA INACIA DA SILVA": "Marilda Brito"
+        },
+        {
+          "11": 3,
+          "415": 1821,
+          "74": 57,
+          "LUCIANA": "Ivana",
+          "LUCIANA INACIA DA SILVA": "IVANA DIRLENE DA SILVA"
+        },
+        {
+          "11": 3,
+          "415": 2489,
+          "74": 49,
+          "LUCIANA": "Maria Raimunda",
+          "LUCIANA INACIA DA SILVA": "MARIA RAIMUNDA GONCALVES DA SILVA"
+        },
+        {
+          "11": 3,
+          "415": 1598,
+          "74": 55,
+          "LUCIANA": "Marilda Brito",
+          "LUCIANA INACIA DA SILVA": "MARILDA ANTONIA DOS REIS VALERIO"
+        }
+      ]
+    },
+    {
+      "aba": "Fundição",
+      "linhas_excel": 51,
+      "colunas_excel": 5,
+      "linha_cabecalho_detectada": 4,
+      "campos": [
+        "11",
+        "653",
+        "101 (2)",
+        "Pedro Henri",
+        "PEDRO HENRIQUE DA SILVA FLABILIO"
+      ],
+      "total_registros_detectados": 47,
+      "celulas_mescladas": [
+        "A2:E2"
+      ],
+      "quantidade_formulas": 0,
+      "amostras_formulas": [],
+      "perfil_campos": [
+        {
+          "campo": "11",
+          "preenchidos": 47,
+          "vazios": 0,
+          "unicos": 2,
+          "tipos": {
+            "int": 47
+          },
+          "amostras": [
+            3,
+            11
+          ],
+          "valores_mais_frequentes": [
+            [
+              "3",
+              31
+            ],
+            [
+              "11",
+              16
+            ]
+          ]
+        },
+        {
+          "campo": "653",
+          "preenchidos": 47,
+          "vazios": 0,
+          "unicos": 47,
+          "tipos": {
+            "int": 47
+          },
+          "amostras": [
+            1923,
+            1150,
+            1000,
+            2094,
+            2319,
+            2240,
+            2415,
+            2314,
+            2264,
+            2267,
+            813,
+            2381,
+            778,
+            2368,
+            804,
+            344,
+            2444,
+            2439,
+            826,
+            2485,
+            2483,
+            345,
+            2285,
+            2513,
+            1446
+          ],
+          "valores_mais_frequentes": [
+            [
+              "1923",
+              1
+            ],
+            [
+              "1150",
+              1
+            ],
+            [
+              "1000",
+              1
+            ],
+            [
+              "2094",
+              1
+            ],
+            [
+              "2319",
+              1
+            ],
+            [
+              "2240",
+              1
+            ],
+            [
+              "2415",
+              1
+            ],
+            [
+              "2314",
+              1
+            ],
+            [
+              "2264",
+              1
+            ],
+            [
+              "2267",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "101 (2)",
+          "preenchidos": 47,
+          "vazios": 0,
+          "unicos": 47,
+          "tipos": {
+            "int": 44,
+            "str": 3
+          },
+          "amostras": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            "109 (17) ",
+            18,
+            "112 (20) ",
+            21,
+            22,
+            23,
+            "113 (24)",
+            26,
+            27,
+            28,
+            30,
+            31,
+            32
+          ],
+          "valores_mais_frequentes": [
+            [
+              "3",
+              1
+            ],
+            [
+              "4",
+              1
+            ],
+            [
+              "5",
+              1
+            ],
+            [
+              "7",
+              1
+            ],
+            [
+              "8",
+              1
+            ],
+            [
+              "10",
+              1
+            ],
+            [
+              "11",
+              1
+            ],
+            [
+              "12",
+              1
+            ],
+            [
+              "13",
+              1
+            ],
+            [
+              "14",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "Pedro Henri",
+          "preenchidos": 47,
+          "vazios": 0,
+          "unicos": 45,
+          "tipos": {
+            "str": 47
+          },
+          "amostras": [
+            "Adilson",
+            "Ademilsom",
+            "Durval",
+            "Antonia",
+            "Marcos",
+            "Antonio Nascimento",
+            "Otávio",
+            "Caleme",
+            "Jose Severino",
+            "Milton",
+            "Rodrigo",
+            "Jaciron",
+            "Walter",
+            "Marcelo",
+            "Charles",
+            "Andre Santos",
+            "Ricardo",
+            "Lucas",
+            "Maciel",
+            "Carlos",
+            "Joao B",
+            "Fabricio",
+            "Nylton",
+            "Tereza",
+            "Nilton"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Marcos",
+              3
+            ],
+            [
+              "Adilson",
+              1
+            ],
+            [
+              "Ademilsom",
+              1
+            ],
+            [
+              "Durval",
+              1
+            ],
+            [
+              "Antonia",
+              1
+            ],
+            [
+              "Antonio Nascimento",
+              1
+            ],
+            [
+              "Otávio",
+              1
+            ],
+            [
+              "Caleme",
+              1
+            ],
+            [
+              "Jose Severino",
+              1
+            ],
+            [
+              "Milton",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "PEDRO HENRIQUE DA SILVA FLABILIO",
+          "preenchidos": 47,
+          "vazios": 0,
+          "unicos": 47,
+          "tipos": {
+            "str": 47
+          },
+          "amostras": [
+            "ADILSON RAMOS",
+            "ADEMILSON ROSA DOS SANTOS",
+            "DURVAL FERREIRA DE CARVALHO",
+            "ANTONIA ERINALDA VIANA DE FRANCA",
+            "MARCOS JORGE DA SILVA",
+            "ANTONIO DO NASCIMENTO",
+            "OTAVIO MACHADO MANSO",
+            "CALEME OZALVO",
+            "JOSE SEVERINO DOS SANTOS",
+            "MILTON AUGUSTO DA SILVA",
+            "RODRIGO DE JESUS BRITO",
+            "JACIRON ALVES DOS SANTOS",
+            "WALTER SOARES DE SOUSA",
+            "MARCELO DE OLIVEIRA DOS REIS",
+            "CHARLES LIMA FERREIRA",
+            "MARCO TULIO FIRMINO DA SILVA",
+            "ANDRE DOS SANTOS",
+            "RICARDO GOMES DE SOUSA",
+            "LUCAS DE OLIVEIRA LIMA ",
+            "MACIEL ROBERTO DOS SANTOS",
+            "CARLOS CORREIA DOS SANTOS",
+            "JOAO BATISTA CONCEIÇÃO OLIVEIRA",
+            "FABRICIO GALDEL SANTOS GOMES",
+            "NYLTON CESAR BERNARDO DA SILVA",
+            "TEREZA CRISTINA FERNANDES"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "ADILSON RAMOS",
+              1
+            ],
+            [
+              "ADEMILSON ROSA DOS SANTOS",
+              1
+            ],
+            [
+              "DURVAL FERREIRA DE CARVALHO",
+              1
+            ],
+            [
+              "ANTONIA ERINALDA VIANA DE FRANCA",
+              1
+            ],
+            [
+              "MARCOS JORGE DA SILVA",
+              1
+            ],
+            [
+              "ANTONIO DO NASCIMENTO",
+              1
+            ],
+            [
+              "OTAVIO MACHADO MANSO",
+              1
+            ],
+            [
+              "CALEME OZALVO",
+              1
+            ],
+            [
+              "JOSE SEVERINO DOS SANTOS",
+              1
+            ],
+            [
+              "MILTON AUGUSTO DA SILVA",
+              1
+            ]
+          ]
+        }
+      ],
+      "primeiros_registros": [
+        {
+          "11": 3,
+          "653": 1923,
+          "101 (2)": 3,
+          "Pedro Henri": "Adilson",
+          "PEDRO HENRIQUE DA SILVA FLABILIO": "ADILSON RAMOS"
+        },
+        {
+          "11": 3,
+          "653": 1150,
+          "101 (2)": 4,
+          "Pedro Henri": "Ademilsom",
+          "PEDRO HENRIQUE DA SILVA FLABILIO": "ADEMILSON ROSA DOS SANTOS"
+        },
+        {
+          "11": 3,
+          "653": 1000,
+          "101 (2)": 5,
+          "Pedro Henri": "Durval",
+          "PEDRO HENRIQUE DA SILVA FLABILIO": "DURVAL FERREIRA DE CARVALHO"
+        },
+        {
+          "11": 3,
+          "653": 2094,
+          "101 (2)": 7,
+          "Pedro Henri": "Antonia",
+          "PEDRO HENRIQUE DA SILVA FLABILIO": "ANTONIA ERINALDA VIANA DE FRANCA"
+        },
+        {
+          "11": 3,
+          "653": 2319,
+          "101 (2)": 8,
+          "Pedro Henri": "Marcos",
+          "PEDRO HENRIQUE DA SILVA FLABILIO": "MARCOS JORGE DA SILVA"
+        }
+      ]
+    },
+    {
+      "aba": "Classificação",
+      "linhas_excel": 26,
+      "colunas_excel": 5,
+      "linha_cabecalho_detectada": 3,
+      "campos": [
+        "3",
+        "1460",
+        "1",
+        "Mariza",
+        "MARIZA MARIA MARTINS DE ARAUJO"
+      ],
+      "total_registros_detectados": 23,
+      "celulas_mescladas": [
+        "A2:E2"
+      ],
+      "quantidade_formulas": 0,
+      "amostras_formulas": [],
+      "perfil_campos": [
+        {
+          "campo": "3",
+          "preenchidos": 23,
+          "vazios": 0,
+          "unicos": 2,
+          "tipos": {
+            "int": 23
+          },
+          "amostras": [
+            3,
+            11
+          ],
+          "valores_mais_frequentes": [
+            [
+              "3",
+              16
+            ],
+            [
+              "11",
+              7
+            ]
+          ]
+        },
+        {
+          "campo": "1460",
+          "preenchidos": 23,
+          "vazios": 0,
+          "unicos": 23,
+          "tipos": {
+            "int": 23
+          },
+          "amostras": [
+            2327,
+            1746,
+            2344,
+            1342,
+            2397,
+            2434,
+            2526,
+            2532,
+            2541,
+            2547,
+            2557,
+            2558,
+            2142,
+            2496,
+            2560,
+            2620,
+            243,
+            513,
+            619,
+            763,
+            764,
+            802,
+            825
+          ],
+          "valores_mais_frequentes": [
+            [
+              "2327",
+              1
+            ],
+            [
+              "1746",
+              1
+            ],
+            [
+              "2344",
+              1
+            ],
+            [
+              "1342",
+              1
+            ],
+            [
+              "2397",
+              1
+            ],
+            [
+              "2434",
+              1
+            ],
+            [
+              "2526",
+              1
+            ],
+            [
+              "2532",
+              1
+            ],
+            [
+              "2541",
+              1
+            ],
+            [
+              "2547",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "1",
+          "preenchidos": 23,
+          "vazios": 0,
+          "unicos": 22,
+          "tipos": {
+            "int": 23
+          },
+          "amostras": [
+            6,
+            7,
+            10,
+            11,
+            15,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            32,
+            34,
+            35,
+            40,
+            46,
+            53,
+            62,
+            75,
+            76,
+            77,
+            78
+          ],
+          "valores_mais_frequentes": [
+            [
+              "7",
+              2
+            ],
+            [
+              "6",
+              1
+            ],
+            [
+              "10",
+              1
+            ],
+            [
+              "11",
+              1
+            ],
+            [
+              "15",
+              1
+            ],
+            [
+              "17",
+              1
+            ],
+            [
+              "18",
+              1
+            ],
+            [
+              "19",
+              1
+            ],
+            [
+              "20",
+              1
+            ],
+            [
+              "21",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "Mariza",
+          "preenchidos": 23,
+          "vazios": 0,
+          "unicos": 23,
+          "tipos": {
+            "str": 23
+          },
+          "amostras": [
+            "Kathrein",
+            "Cynthia",
+            "Elaine Cristina",
+            "Valdir",
+            "Ana Cleia",
+            "Isaque",
+            "Jorge",
+            "Lucas",
+            "Marcelo",
+            "Alexandro",
+            "Alessandra",
+            "Maria Luzia",
+            "Valda",
+            "Maria Adriana",
+            "Alceane da Conceicao",
+            "Magno",
+            "Lindomar",
+            "Kelly",
+            "Alynni",
+            "Marcia Aug",
+            "Carlos H",
+            "Mikael",
+            "Nilson"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "Kathrein",
+              1
+            ],
+            [
+              "Cynthia",
+              1
+            ],
+            [
+              "Elaine Cristina",
+              1
+            ],
+            [
+              "Valdir",
+              1
+            ],
+            [
+              "Ana Cleia",
+              1
+            ],
+            [
+              "Isaque",
+              1
+            ],
+            [
+              "Jorge",
+              1
+            ],
+            [
+              "Lucas",
+              1
+            ],
+            [
+              "Marcelo",
+              1
+            ],
+            [
+              "Alexandro",
+              1
+            ]
+          ]
+        },
+        {
+          "campo": "MARIZA MARIA MARTINS DE ARAUJO",
+          "preenchidos": 23,
+          "vazios": 0,
+          "unicos": 23,
+          "tipos": {
+            "str": 23
+          },
+          "amostras": [
+            "KATHREIN MARTINS EVANGELISTA",
+            "CYNTHIA CRISTINA TOMAS MATIAS FERREIRA",
+            "ELAINE CRISTINA DE JESUS",
+            "VALDIR PEDRO DA SILVA",
+            "ANA CLEA RODRIGUES DE SOUSA",
+            "IZAQUE SILVA DOS SANTOS",
+            "JORGE ANTONIO RODRIGUES JUNIOR",
+            "LUCAS VIEIRA FELICIANO",
+            "MARCELO FRANCISCO LEAL",
+            "ALEXANDRO MAIA",
+            "ALESSANDRA MARIA COSTA MULLER",
+            "MARIA LUZIA DA COSTA",
+            "VALDA HELENA DA SILVA",
+            "MARIA ADRIANA DE SOUSA SANTOS",
+            "ALCEANE DA CONCEICAO",
+            "MAGNO ROSENO DE MELO SILVA",
+            "LINDOMAR PEREIRA DA SILVA",
+            "KELLY FABIANA LUIS",
+            "ALYNNI CRISTINA DE FREITAS LEMES",
+            "MARCIA AUGUSTA GONTIJO DA SILVA",
+            "CARLOS HENRIQUE SILVA PEREIRA",
+            "MIKAEL EVERSON SILVA DE OLIVEIRA",
+            "NILSON OLIVEIRA NEVES"
+          ],
+          "valores_mais_frequentes": [
+            [
+              "KATHREIN MARTINS EVANGELISTA",
+              1
+            ],
+            [
+              "CYNTHIA CRISTINA TOMAS MATIAS FERREIRA",
+              1
+            ],
+            [
+              "ELAINE CRISTINA DE JESUS",
+              1
+            ],
+            [
+              "VALDIR PEDRO DA SILVA",
+              1
+            ],
+            [
+              "ANA CLEA RODRIGUES DE SOUSA",
+              1
+            ],
+            [
+              "IZAQUE SILVA DOS SANTOS",
+              1
+            ],
+            [
+              "JORGE ANTONIO RODRIGUES JUNIOR",
+              1
+            ],
+            [
+              "LUCAS VIEIRA FELICIANO",
+              1
+            ],
+            [
+              "MARCELO FRANCISCO LEAL",
+              1
+            ],
+            [
+              "ALEXANDRO MAIA",
+              1
+            ]
+          ]
+        }
+      ],
+      "primeiros_registros": [
+        {
+          "3": 3,
+          "1460": 2327,
+          "1": 6,
+          "Mariza": "Kathrein",
+          "MARIZA MARIA MARTINS DE ARAUJO": "KATHREIN MARTINS EVANGELISTA"
+        },
+        {
+          "3": 3,
+          "1460": 1746,
+          "1": 7,
+          "Mariza": "Cynthia",
+          "MARIZA MARIA MARTINS DE ARAUJO": "CYNTHIA CRISTINA TOMAS MATIAS FERREIRA"
+        },
+        {
+          "3": 3,
+          "1460": 2344,
+          "1": 7,
+          "Mariza": "Elaine Cristina",
+          "MARIZA MARIA MARTINS DE ARAUJO": "ELAINE CRISTINA DE JESUS"
+        },
+        {
+          "3": 3,
+          "1460": 1342,
+          "1": 10,
+          "Mariza": "Valdir",
+          "MARIZA MARIA MARTINS DE ARAUJO": "VALDIR PEDRO DA SILVA"
+        },
+        {
+          "3": 3,
+          "1460": 2397,
+          "1": 11,
+          "Mariza": "Ana Cleia",
+          "MARIZA MARIA MARTINS DE ARAUJO": "ANA CLEA RODRIGUES DE SOUSA"
+        }
+      ]
+    }
+  ],
+  "total_abas": 8
+}

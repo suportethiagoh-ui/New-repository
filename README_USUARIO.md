@@ -1,175 +1,74 @@
-# INFOGERAL Dashboard - Sistema Corporativo de Colaboradores
+# INFOGERAL Dashboard Local
 
-**Versão:** 2.0 Corporativo  
-**Status:** Produção (autenticação local)  
-**Última atualização:** 30 de Abril de 2026
+Este projeto transforma a planilha **INFOGERAL.xlsx** em uma aplicação local com dashboard, painel administrativo, tabela editável, auditoria de abas do Excel e preparação para uso em automações com **Manus API**.
 
-## O que é
+## O que foi carregado
 
-INFOGERAL é um **sistema corporativo de gestão de colaboradores** desenvolvido para substituir planilhas Excel por uma interface web segura e auditada.
+A planilha foi lida integralmente e convertida para dados locais da aplicação. A aba **Geral Cod** foi tratada como cadastro mestre de colaboradores, enquanto as abas setoriais, peças e dados brutos foram preservados para consulta e auditoria.
 
-- ✅ **Gestão de colaboradores** com CRUD completo
-- ✅ **Auditoria completa** de todas as ações
-- ✅ **Autenticação local** (username/password)
-- ✅ **Preparado para .tel** (integração com sistema de ponto)
-- ✅ **Zero dependências de terceiros**
+| Item | Resultado carregado |
+| --- | ---: |
+| Abas do Excel preservadas | 8 |
+| Colaboradores carregados | 100 |
+| Setores identificados | 4 |
+| Peças carregadas | 30 |
+| Arquivo de dados da aplicação | `client/src/data/infogeralData.ts` |
+| JSON normalizado para auditoria/API | `analysis/infogeral_normalizado.json` |
 
 ## Como rodar em localhost
 
-Dentro da pasta do projeto, execute:
+A aplicação já está preparada para rodar localmente na porta 3000. Dentro da pasta do projeto, execute:
 
 ```bash
+cd /home/ubuntu/infogeral-dashboard-local
 pnpm dev --host 0.0.0.0
 ```
 
 Depois acesse:
 
-```
+```text
 http://localhost:3000
 ```
 
-## Login padrão
+No ambiente atual, a aplicação já está rodando na porta 3000.
 
-Na primeira execução, um usuário admin é criado automaticamente:
+## Como alimentar novamente com outra planilha
 
-| Campo | Valor |
-|-------|-------|
-| Usuário | admin |
-| Senha | admin123 |
+Substitua o caminho do Excel no comando abaixo. O script reprocessa a planilha, atualiza o arquivo TypeScript usado pelo frontend e salva um JSON normalizado para auditoria ou API.
 
-⚠️ **IMPORTANTE**: Mude a senha em produção!
+```bash
+cd /home/ubuntu/infogeral-dashboard-local
+python3.11 carregar_infogeral.py --excel /caminho/INFOGERAL.xlsx
+pnpm dev --host 0.0.0.0
+```
+
+> O comando acima é a automação principal: você alimenta com a planilha e o painel local já passa a abrir com os dados preenchidos.
 
 ## O que existe no painel
 
-A interface possui três seções principais:
+A interface possui quatro áreas principais. A seção **Colaboradores** mostra o dashboard com gráficos, métricas e a tabela administrativa. A seção **Peças** lista os itens cadastrados na aba PEÇAS. A seção **Excel bruto** permite conferir as linhas preservadas de cada aba da planilha. A seção **Manus API** gera um payload JSON para uso em integrações externas.
 
-| Seção | Função |
-|-------|--------|
-| **Colaboradores** | Visualizar, buscar, filtrar por setor, editar, remover, criar novo |
-| **Peças** | Consulta e exportação de itens cadastrados |
-| **Auditoria** | Rastreamento de todas as ações: quem, quando, o quê |
+| Área | Função |
+| --- | --- |
+| Colaboradores | Busca, filtro por setor, ordenação, edição, remoção, criação manual e exportação JSON |
+| Peças | Consulta e exportação do cadastro auxiliar de peças |
+| Excel bruto | Auditoria das abas originais preservadas |
+| Manus API | Baixa um payload pronto para automações externas sem gravar chaves no frontend |
 
-## Recursos principais
+## Observações sobre Manus API
 
-### Colaboradores
-- 📊 Dashboard com gráficos e métricas
-- 🔍 Busca por nome, código, carimbo
-- 📋 Filtro por setor
-- ➕ Criar novo registro
-- ✏️ Editar registros existentes
-- 🗑️ Remover registros
-- 📥 Importar JSON
-- 📤 Exportar JSON
-
-### Auditoria
-- 📝 Log de todas as ações (CREATE, UPDATE, DELETE, LOGIN, LOGOUT)
-- 🕐 Timestamp preciso
-- 👤 Usuário responsável
-- 🌐 IP de origem
-- 📊 Filtros por ação e entidade
+Por segurança, a chave da Manus API não deve ser inserida no frontend. O painel gera o arquivo `payload-manus-api-infogeral.json` pelo botão **Baixar payload para Manus API**. Esse arquivo pode ser usado em uma automação externa, junto com uma chave protegida no ambiente do servidor ou em ferramenta própria de automação.
 
 ## Arquivos importantes
 
 | Arquivo | Finalidade |
-|---------|-----------|
-| `carregar_infogeral.py` | Script para carregar dados da planilha Excel |
-| `client/src/data/infogeralData.ts` | Dados locais do painel (TypeScript) |
-| `server/_core/auth.ts` | Sistema de autenticação local |
-| `drizzle/schema.ts` | Schema do banco de dados |
-| `server/routers.ts` | API tRPC com endpoints |
+| --- | --- |
+| `carregar_infogeral.py` | Script Python principal para ler o Excel e alimentar a aplicação |
+| `client/src/data/infogeralData.ts` | Base local usada pelo dashboard React |
+| `analysis/infogeral_normalizado.json` | Exportação normalizada completa para auditoria/API |
+| `analysis/analise_infogeral.md` | Relatório de estrutura da planilha lida |
+| `ideas.md` | Filosofia visual escolhida para o painel |
 
-## Futuro: Integração com .tel
+## Validação realizada
 
-O sistema está preparado para integração com **.tel** (sistema de ponto de entrada/saída):
-
-- ✅ Schema pronto com campos: `pontoEntrada`, `pontoSaida`, `statusPonto`, `totalHoras`
-- ✅ Auditoria rastreará sincronizações
-- ✅ Estrutura para webhooks
-- 🔄 Implementação prevista para próxima fase
-
-## Operacional
-
-### Fluxo de uso
-1. **Acesso:** Login com credenciais corporativas
-2. **Dashboard:** Visualizar métricas e colaboradores
-3. **Gestão:** Adicionar, editar ou remover registros
-4. **Auditoria:** Rastrear todas as ações
-5. **Logout:** Desconectar com segurança
-
-### Segurança
-- 🔒 Autenticação local (sem cloud)
-- 🔐 Cookies seguros (HttpOnly, Secure)
-- 📝 Auditoria de IP e user-agent
-- 🔑 JWT com expiração
-- ⚠️ Dados sob seu controle
-
-### Performance
-- ⚡ Interface responsiva (React)
-- 📡 API tRPC type-safe
-- 💾 Banco MySQL otimizado
-- 📊 Gráficos interativos (Recharts)
-
-## Desenvolvimento
-
-### Stack técnico
-- **Frontend:** React 19 + TypeScript + Tailwind CSS + Radix UI
-- **Backend:** Express + tRPC + Node.js
-- **Banco:** MySQL + Drizzle ORM
-- **Auth:** JWT + Cookies + Bcrypt
-
-### Build para produção
-
-```bash
-pnpm build
-```
-
-Isso gera:
-- Frontend otimizado em `dist/public/`
-- Servidor bundled em `dist/index.js`
-
-### Iniciar em produção
-
-```bash
-NODE_ENV=production node dist/index.js
-```
-
-## Variáveis de ambiente
-
-```bash
-# JWT secret (OBRIGATÓRIO - min 32 chars)
-JWT_SECRET=seu-secret-aqui
-
-# Banco de dados (OBRIGATÓRIO)
-DATABASE_URL=mysql://user:password@localhost:3306/infogeral
-
-# Ambiente
-NODE_ENV=production
-```
-
-## Troubleshooting
-
-### Erro ao fazer login
-- Verificar que o usuário `admin` existe no banco
-- Confirmar DATABASE_URL está correto
-- Ver logs do servidor: `NODE_ENV=development pnpm dev`
-
-### Auditoria não funciona
-- Verificar que a tabela `audit_logs` existe
-- Confirmar que userId está sendo registrado
-
-### Banco de dados vazio
-- Executar: `pnpm run db:push`
-- Depois reiniciar servidor
-
-## Suporte
-
-Para dúvidas ou problemas:
-1. Consulte os logs em development: `pnpm dev`
-2. Verifique variáveis de ambiente
-3. Confirme que MySQL está rodando
-4. Veja documentação em `ANALISE_CORPORATIVA.md` e `PROXIMOS_PASSOS.md`
-
-## Licença
-
-MIT - Desenvolvido como solução corporativa interna.
-
+Foram executadas as validações `pnpm check` e `pnpm build`. Ambas concluíram sem erros. O build apresentou apenas um aviso padrão de tamanho de bundle por causa da inclusão local dos dados e dos componentes gráficos.
